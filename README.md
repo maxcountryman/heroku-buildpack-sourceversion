@@ -10,11 +10,8 @@ Then just add this buildpack in addition to the existing buildpacks in the `.bui
 
 	https://github.com/sreid/heroku-buildpack-sourceversion.git
 
-In the application code, read the `.source_version` file that will be created on deployment. For example, in a Rails, it might look something like:
+In the application code, read the `.commit_hash` file that will be created on deployment. 
 
-	git_sha = File.read(Rails.root.join('.source_version'))
-
-(add any error handling for environments where this file doesn't exist, such as your development machine, of course...)
 
 ## License
 MIT
