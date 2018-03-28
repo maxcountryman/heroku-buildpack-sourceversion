@@ -1,9 +1,7 @@
 #!/bin/sh
 
-# Syntax bin/compile <build-dir> <cache-dir>
-
 BUILD_DIR=$1
 CACHE_DIR=$2
 
-echo "=====> Writing out SOURCE_VERSION env var to .commit_sha ($SOURCE_VERSION)"
+echo "-----> Writing out SOURCE_VERSION env var to .commit_sha ($SOURCE_VERSION)"
 echo $SOURCE_VERSION > $BUILD_DIR/.commit_sha
