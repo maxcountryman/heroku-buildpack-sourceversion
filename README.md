@@ -8,7 +8,7 @@ To use this buildpack, the app should already be successfully running the [multi
 
 Then just add this buildpack in addition to the existing buildpacks in the `.buildpacks` file:
 
-	https://github.com/sreid/heroku-buildpack-sourceversion.git
+	https://github.com/cristiano2lopes/heroku-buildpack-sourceversion.git
 
 In the application code, read the `.commit_hash` file that will be created on deployment. 
 
