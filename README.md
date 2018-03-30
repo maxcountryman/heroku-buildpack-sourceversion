@@ -8,7 +8,7 @@ Then just add this buildpack to your buildpacks config:
 
 	https://github.com/maxcountryman/heroku-buildpack-sourceversion.git
 
-At runtime, your application can read the `.commit_sha` file.
+At runtime, your application can read the `.commit_id` file.
 
 ## License
 MIT
