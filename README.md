@@ -1,5 +1,6 @@
-# heroku-buildpacks-sourceversion
-Writes the `SOURCE_VERSION` environment variable (usually the Git SHA) to a file for use at runtime.
+# heroku-buildpack-sourceversion
+
+Makes the commit ID, i.e. `SOURCE_VERSION`, available to your application at runtime by writing out to a file.
 
 ## Usage
 To use this buildpack, the app should already be successfully running the [multi buildpack](https://github.com/heroku/heroku-buildpack-multi) setup.
