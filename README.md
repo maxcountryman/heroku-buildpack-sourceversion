@@ -3,7 +3,7 @@
 Makes the commit ID, i.e. `SOURCE_VERSION`, available to your application at runtime by writing out to a file.
 
 ## Usage
-Simple add this buildpack to your application's configuration:
+Simply add this buildpack to your application's configuration:
 
 	https://github.com/maxcountryman/heroku-buildpack-sourceversion.git
 
